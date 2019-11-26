@@ -1,14 +1,21 @@
 ﻿body {
 }
-
-a {
-    position: relative;
+section {
+    text-align: center;
+    margin-bottom: 50px;
 }
-a img {
+section a {
+    position: relative;
+    display: inline-block; /*get rid of*/
+    width: 300px; /*get rid of*/
+    height: 200px; /*get rid of*/
+    border: 1px solid black; /*get rid of*/
+}
+section a img {
     width: 300px;
     height: 200px;
 }
-a p {
+section a p {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -16,4 +23,43 @@ a p {
     padding: 6px;
     background-color: rgba(0,0,0,0.75);
     color: white;
+    margin: 0;
+}
+section a p a {
+    display: inline;
+    border: 0;
+}
+section ul {
+    list-style-type: none;
+    padding: 0px;
+}
+section li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+header picture {
+    display:inline-block;
+    width: 75px;
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 830px) {
+
+
+    header picture {
+        width: auto;
+        overflow: visible;
+    }
+
+
+
 }
