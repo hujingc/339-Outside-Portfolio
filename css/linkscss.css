@@ -1,8 +1,34 @@
-﻿body {
+﻿h1 {
+    margin: 30px;
+    text-align: center;
 }
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+p {
+    text-align: center;
+    color: black;
+}
+header {
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+header picture {
+    display: inline-block;
+    width: 75px;
+    overflow-x: hidden;
+}
+
 section {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 section a {
     position: relative;
@@ -25,7 +51,7 @@ section a p {
     color: white;
     margin: 0;
 }
-section a p a {
+section a p{
     display: inline;
     border: 0;
 }
@@ -38,18 +64,26 @@ section li {
     vertical-align: top;
     margin: 5px;
 }
-header picture {
-    display:inline-block;
-    width: 75px;
-    overflow-x: hidden;
-}
-header {
+footer {
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    background-color: lightgray;
 }
-h1 {
-    text-align: center;
+footer h1 {
+    display: inline-block;
+    text-align: right;
+    font-size: 1.2em;
 }
+footer h2 {
+    font-size: 1.4em;
+}
+footer picture {
+    display: inline-block;
+}
+
+
 
 
 @media screen and (min-width: 830px) {
