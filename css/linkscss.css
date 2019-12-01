@@ -81,16 +81,23 @@ footer h2 {
 }
 footer picture {
     display: inline-block;
+    width: 75px;
+    overflow-x: hidden;
 }
 
 
 
 
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 840px) {
 
 
     header picture {
         width: auto;
+        overflow: visible;
+    }
+
+    footer picture {
+        width:auto;
         overflow: visible;
     }
 
