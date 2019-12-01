@@ -32,10 +32,17 @@ section {
 }
 section a {
     position: relative;
-    display: inline-block; /*get rid of*/
-    width: 300px; /*get rid of*/
-    height: 200px; /*get rid of*/
-    border: 1px solid black; /*get rid of*/
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+section a:hover {
+    transform: scale(1.1);
+    position: relative;
+    z-index: 2;
 }
 section a img {
     width: 300px;
