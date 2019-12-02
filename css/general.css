@@ -1,21 +1,26 @@
 h1 {
     margin: 30px;
     text-align: center;
+    Font-Family: 'Roboto', Sans-Serif;
+    Font-Size: 35px;
 }
 
 h2 {
     text-align: center;
     font-size: 2em;
+    Font-Family: 'Roboto', Sans-Serif;
 }
 
 h3 {
     text-align: center;
     font-size: 1.5em;
+    Font-Family: 'Droid Serif', Serif;
 }
 
 p {
     text-align: center;
     color: black;
+    Font-Family: 'Droid Serif', Serif;
 }
 
 header {
