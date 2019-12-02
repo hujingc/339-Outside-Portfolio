@@ -16,8 +16,8 @@ section a {
 }
 
 section a img {
-	width: 300px;
-	height: 200px;
+	width: 500px;
+	height: 400px;
 }
 
 section a p {
@@ -47,6 +47,8 @@ section li {
 	margin: 5px;
 }
 
+.twitter-timeline{
+}
 
 
 @media screen and (min-width: 830px) {
