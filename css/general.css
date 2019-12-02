@@ -80,6 +80,10 @@ aside {
 		text-decoration: overline;
     }
 
+    .lauraname{
+      text-align: center;
+    }
+
     @media screen and (min-width: 768px) {
     .navbar {
     display: flex;
@@ -107,6 +111,7 @@ aside {
     .navbar-toggle {
     display: none;
     }
+
 }
 
 /*END NAVIGATION*/
