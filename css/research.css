@@ -1,15 +1,23 @@
 ﻿#notice {
     text-align: center;
+    background-color: rgba(0,39,76,0.5);
+    padding: 15px;
 }
 
-#philosophy>* {
+#philosophy > * {
     text-align: left;
+    background-color: rgba(255,203,5,0.5);
+    padding: 15px;
 }
 
-#current>* {
+#current > * {
     text-align: right;
+    background-color: rgba(0,39,76,0.5);
+    padding: 15px;
 }
 
-#past>* {
+#past > * {
     text-align: left;
+    background-color: rgba(255,203,5,0.5);
+    padding: 15px;
 }
