@@ -18,8 +18,6 @@ input[type='checkbox'] {
     display: block;
 
     font-weight: bold;
-    font-family: monospace;
-    font-size: 1.2rem;
     text-transform: uppercase;
     text-align: center;
 
