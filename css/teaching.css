@@ -25,11 +25,11 @@ header {
     justify-content: space-between;
 }
 
-    header picture {
-        display: inline-block;
-        width: 75px;
-        overflow-x: hidden;
-    }
+header picture {
+    display: inline-block;
+    width: 75px;
+    overflow-x: hidden;
+}
 
 footer {
     padding: 10px 15px;
@@ -39,21 +39,21 @@ footer {
     background-color: lightgray;
 }
 
-    footer h1 {
-        display: inline-block;
-        text-align: right;
-        font-size: 1.2em;
-    }
+footer h1 {
+    display: inline-block;
+    text-align: right;
+    font-size: 1.2em;
+}
 
-    footer h2 {
-        font-size: 1.4em;
-    }
+footer h2 {
+    font-size: 1.4em;
+}
 
-    footer picture {
-        display: inline-block;
-        width: 75px;
-        overflow-x: hidden;
-    }
+footer picture {
+    display: inline-block;
+    width: 75px;
+    overflow-x: hidden;
+}
 
 
 @media screen and (min-width: 840px) {
@@ -68,4 +68,58 @@ footer {
         width: auto;
         overflow: visible;
     }
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+.lbl-toggle {
+    display: block;
+
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding: 1rem;
+
+    color: brown;
+    background: #FAE042;
+
+    cursor: pointer;
+
+    border-radius: 7px;
+    transition: all 0.25s ease-out;
+}
+
+.lbl-toggle:hover {
+    color: black;
+}
+
+.lbl-toggle::before {
+    content: ' ';
+    display: inline-block;
+
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid currentColor;
+
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+
+    transition: transform .2s ease-out;
+}
+
+.collapsible-content {
+    max-height: 0px;
+    overflow: hidden;
+
+    transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked+.lbl-toggle+.collapsible-content {
+    max-height: 100%;
 }
