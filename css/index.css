@@ -1,4 +1,8 @@
-﻿section {
+﻿#profilepic{
+    display: block;
+    margin:auto;
+}
+section {
     text-align: center;
     margin-bottom: 70px;
 }
