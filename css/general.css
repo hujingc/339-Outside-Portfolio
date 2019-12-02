@@ -8,7 +8,7 @@ h1 {
     margin: 30px;
     text-align: center;
     Font-Family: 'Ubuntu', Sans-Serif;
-    Font-Size: 48px;
+    font-size: 2.5em;
 }
 
 h2 {
@@ -31,7 +31,12 @@ p {
     text-align: center;
     color: black;
     Font-Family: 'Open Sans', Sans-Serif;
-    padding: 0 5px 0 5px;
+}
+
+p,
+h4,
+aside {
+    padding: 0 10px 0 10px;
 }
 
 /*NAVIGATION*/
