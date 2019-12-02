@@ -1,4 +1,15 @@
-﻿section {
-    color:red;
+﻿#notice {
+    text-align: center;
+}
+
+#philosophy>* {
+    text-align: left;
+}
+
+#current>* {
+    text-align: right;
+}
+
+#past>* {
     text-align: left;
 }
