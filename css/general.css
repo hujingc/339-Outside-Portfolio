@@ -1,3 +1,7 @@
+html,body{
+    padding:0;
+    margin: 0;
+}
 h1 {
     margin: 30px;
     text-align: center;
@@ -21,14 +25,23 @@ p {
 header {
     padding: 15px;
     background-color: lightgray;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 header picture {
+    grid-column: 1;
     display: inline-block;
     width: 75px;
     overflow-x: hidden;
+}
+
+.laura{
+    grid-column: 2;
+}
+
+nav {
+    grid-column: 3;
 }
 
 footer {
