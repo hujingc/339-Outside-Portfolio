@@ -69,7 +69,7 @@ footer picture {
         overflow: visible;
     }
 }
-
+/* CSS-only toggle credits to: https://alligator.io/css/collapsible/ */
 input[type='checkbox'] {
     display: none;
 }
@@ -123,3 +123,11 @@ input[type='checkbox'] {
 .toggle:checked+.lbl-toggle+.collapsible-content {
     max-height: 100%;
 }
+.toggle:checked + .lbl-toggle::before {
+    transform: rotate(90deg) translateX(-3px);
+  }
+  
+  .toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
