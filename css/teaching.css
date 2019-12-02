@@ -1,80 +1,12 @@
-﻿h1 {
-    margin: 30px;
-    text-align: center;
+﻿img {
+    display: block;
+    margin: auto;
 }
-
-h2 {
-    text-align: center;
-    font-size: 2em;
-}
-
-h3 {
-    text-align: center;
-    font-size: 1.5em;
-}
-
-p {
-    text-align: center;
-    color: black;
-}
-
-header {
-    padding: 15px;
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-between;
-}
-
-header picture {
-    display: inline-block;
-    width: 75px;
-    overflow-x: hidden;
-}
-
-footer {
-    padding: 10px 15px;
-    display: flex;
-    justify-content: space-between;
-    width: 1fr;
-    background-color: lightgray;
-}
-
-footer h1 {
-    display: inline-block;
-    text-align: right;
-    font-size: 1.2em;
-}
-
-footer h2 {
-    font-size: 1.4em;
-}
-
-footer picture {
-    display: inline-block;
-    width: 75px;
-    overflow-x: hidden;
-}
-
-
-@media screen and (min-width: 840px) {
-
-
-    header picture {
-        width: auto;
-        overflow: visible;
-    }
-
-    footer picture {
-        width: auto;
-        overflow: visible;
-    }
-}
-img{display: block; margin:auto;}
 
 /* CSS-only toggle credits to: https://alligator.io/css/collapsible/ */
-.collapsible-content{
+.collapsible-content {
     background-color: lightblue;
-    padding-left:5px;
+    padding-left: 5px;
     padding-right: 5px;
 }
 
@@ -131,11 +63,12 @@ input[type='checkbox'] {
 .toggle:checked+.lbl-toggle+.collapsible-content {
     max-height: 100%;
 }
-.toggle:checked + .lbl-toggle::before {
+
+.toggle:checked+.lbl-toggle::before {
     transform: rotate(90deg) translateX(-3px);
-  }
-  
-  .toggle:checked + .lbl-toggle {
+}
+
+.toggle:checked+.lbl-toggle {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-  }
+}
