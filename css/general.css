@@ -45,13 +45,13 @@ aside {
     font-size: 18px;
     background-color: gray;
     padding-bottom: 10px;
-		Font-Family: 'Ruda', Sans-Serif;
+		Font-Family: 'Ubuntu', Sans-Serif;
     }
 
     .nav-links{
     text-decoration: none;
     color: rgba(255, 255, 255, 255);
-      }
+    }
 
     .main-nav li {
     text-align: center;
@@ -59,12 +59,13 @@ aside {
     }
 
     .logo {
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 50px;
-    height: 40px;
-    }
+      display: inline-block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+      width: 300px;
+      height: 30px;
+      }
 
     .navbar-toggle {
     position: absolute;
@@ -77,6 +78,10 @@ aside {
 
     .active {
 		text-decoration: overline;
+    }
+
+    .lauraname{
+      text-align: center;
     }
 
     @media screen and (min-width: 768px) {
@@ -103,13 +108,10 @@ aside {
     margin-left: 40px;
     }
 
-    .logo {
-    margin-top: 0;
-    }
-
     .navbar-toggle {
     display: none;
     }
+
 }
 
 /*END NAVIGATION*/
