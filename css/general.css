@@ -1,7 +1,9 @@
-html,body{
-    padding:0;
+html,
+body {
+    padding: 0;
     margin: 0;
 }
+
 h1 {
     margin: 30px;
     text-align: center;
@@ -15,6 +17,10 @@ h2 {
     Font-Family: 'Ubuntu', Sans-Serif;
 }
 
+.laura {
+    text-align: center;
+}
+
 h3 {
     text-align: center;
     font-size: 1.5em;
@@ -25,6 +31,7 @@ p {
     text-align: center;
     color: black;
     Font-Family: 'Open Sans', Sans-Serif;
+    padding: 0 5px 0 5px;
 }
 
 header {
@@ -41,7 +48,7 @@ header picture {
     overflow-x: hidden;
 }
 
-.laura{
+.lauraname {
     grid-column: 2;
 }
 

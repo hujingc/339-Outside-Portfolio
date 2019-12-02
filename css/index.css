@@ -47,32 +47,6 @@ section li {
 	margin: 5px;
 }
 
-footer {
-	padding: 10px;
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	background-color: lightgray;
-}
-
-footer h1 {
-	display: inline-block;
-	text-align: right;
-	font-size: 1.2em;
-}
-
-footer h2 {
-	font-size: 1.4em;
-}
-
-footer picture {
-	display: inline-block;
-}
-
-
-.laura {
-	text-align: center;
-}
 
 
 @media screen and (min-width: 830px) {
@@ -151,7 +125,7 @@ footer picture {
 	right: 30px;
 	border: medium solid #00274C;
 	border-width: 10px 0 10px 10px;
-	border-color: transparent transparent transparent #A9A9A9;
+	border-color: transparent transparent transparent #00274C;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -177,7 +151,7 @@ footer picture {
 .content {
 	padding: 20px 30px;
 	background-color: #00274C;
-	opacity: 0.9;
+	opacity: 0.95;
 	position: relative;
 	border-radius: 6px;
 }
