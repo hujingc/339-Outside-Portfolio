@@ -1,7 +1,9 @@
-html,body{
-    padding:0;
+html,
+body {
+    padding: 0;
     margin: 0;
 }
+
 h1 {
     margin: 30px;
     text-align: center;
@@ -13,6 +15,10 @@ h2 {
     text-align: center;
     font-size: 2em;
     Font-Family: 'Roboto', Sans-Serif;
+}
+
+.laura {
+    text-align: center;
 }
 
 h3 {
@@ -41,7 +47,7 @@ header picture {
     overflow-x: hidden;
 }
 
-.laura{
+.lauraname {
     grid-column: 2;
 }
 
