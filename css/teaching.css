@@ -35,7 +35,7 @@ footer {
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 1fr;
     background-color: lightgray;
 }
 
@@ -69,12 +69,15 @@ footer picture {
         overflow: visible;
     }
 }
+img{display: block; margin:auto;}
+
+/* CSS-only toggle credits to: https://alligator.io/css/collapsible/ */
 .collapsible-content{
     background-color: lightblue;
     padding-left:5px;
     padding-right: 5px;
 }
-/* CSS-only toggle credits to: https://alligator.io/css/collapsible/ */
+
 input[type='checkbox'] {
     display: none;
 }
