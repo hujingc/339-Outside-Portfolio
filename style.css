@@ -1,0 +1,230 @@
+h1 {
+    margin: 30px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+p {
+    text-align: center;
+    color: black;
+}
+header {
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+header picture {
+    display: inline-block;
+    width: 75px;
+    overflow-x: hidden;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 70px;
+}
+section a {
+    position: relative;
+    display: inline-block; /*get rid of*/
+    width: 300px; /*get rid of*/
+    height: 200px; /*get rid of*/
+    border: 1px solid black; /*get rid of*/
+}
+section a img {
+    width: 300px;
+    height: 200px;
+}
+section a p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 6px;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    margin: 0;
+}
+section a p{
+    display: inline;
+    border: 0;
+}
+section ul {
+    list-style-type: none;
+    padding: 0px;
+}
+section li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: lightgray;
+}
+footer h1 {
+    display: inline-block;
+    text-align: right;
+    font-size: 1.2em;
+}
+footer h2 {
+    font-size: 1.4em;
+}
+footer picture {
+    display: inline-block;
+}
+
+
+
+@media screen and (min-width: 830px) {
+
+
+    header picture {
+        width: auto;
+        overflow: visible;
+    }
+
+
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
