@@ -45,13 +45,13 @@ aside {
     font-size: 18px;
     background-color: gray;
     padding-bottom: 10px;
-		Font-Family: 'Ruda', Sans-Serif;
+		Font-Family: 'Ubuntu', Sans-Serif;
     }
 
     .nav-links{
     text-decoration: none;
     color: rgba(255, 255, 255, 255);
-      }
+    }
 
     .main-nav li {
     text-align: center;
@@ -62,8 +62,8 @@ aside {
     display: inline-block;
     margin-top: 10px;
     margin-left: 20px;
-    width: 50px;
-    height: 40px;
+    width: 300px;
+    height: 30px;
     }
 
     .navbar-toggle {
