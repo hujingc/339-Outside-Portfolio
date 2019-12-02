@@ -69,6 +69,11 @@ footer picture {
         overflow: visible;
     }
 }
+.collapsible-content{
+    background-color: lightblue;
+    padding-left:5px;
+    padding-right: 5px;
+}
 /* CSS-only toggle credits to: https://alligator.io/css/collapsible/ */
 input[type='checkbox'] {
     display: none;
