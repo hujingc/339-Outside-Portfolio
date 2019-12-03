@@ -162,7 +162,7 @@ nav {
 }
 */
 footer {
-    padding: 10px 15px;
+    padding-top: 10px 15px;
     display: flex;
     justify-content: space-between;
     width: 1fr;
@@ -181,7 +181,7 @@ footer h2 {
 
 .footlogo {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 10px;
   margin-left: 20px;
   width: 340px;
@@ -190,6 +190,9 @@ footer h2 {
 
 .mail {
     color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 15px;
   }
 
 
