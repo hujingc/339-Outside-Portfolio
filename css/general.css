@@ -54,7 +54,7 @@ h4 {
 
     .navbar {
     font-size: 18px;
-    background-color: #888888;
+    background-color: rgb(181,181,181);
     padding-bottom: 10px;
 		Font-Family: 'Ubuntu', Sans-Serif;
     }
@@ -116,9 +116,9 @@ h4 {
     .nav-links {
         margin: 15px;
     }
-    .main-nav li:hover {
-        background-color: black;
-    }
+        .main-nav li:hover {
+            text-decoration: underline;
+        }
     .navbar-toggle {
         display: none;
     }
@@ -159,7 +159,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 1fr;
-    background-color: #888888;
+    background-color: rgb(181,181,181);
 }
 
 ul h1 {
@@ -171,6 +171,9 @@ ul h1 {
 footer h2 {
     font-size: 1.4em;
     padding: 0 50px;
+}
+.mail:hover {
+    text-decoration: underline;
 }
 
 .footlogo {
