@@ -170,6 +170,10 @@ footer h2 {
   height: 30px;
   }
 
+.mail {
+    color: white;
+  }
+
 
 @media screen and (min-width: 860px) {
 
