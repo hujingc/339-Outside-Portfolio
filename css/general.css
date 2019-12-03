@@ -31,8 +31,8 @@ p {
     text-align: center;
     color: black;
     Font-Family: 'Open Sans', Sans-Serif;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 p,
@@ -47,7 +47,7 @@ aside {
 
     .navbar {
     font-size: 18px;
-    background-color: gray;
+    background-color: #888888;
     padding-bottom: 10px;
 		Font-Family: 'Ubuntu', Sans-Serif;
     }
@@ -68,7 +68,7 @@ aside {
       margin-top: 10px;
       margin-bottom: 10px;
       margin-left: 20px;
-      width: 300px;
+      width: 340px;
       height: 30px;
       }
 
@@ -148,7 +148,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 1fr;
-    background-color: lightgray;
+    background-color: #888888;
 }
 
 ul h1 {
@@ -161,11 +161,14 @@ footer h2 {
     font-size: 1.4em;
 }
 
-footer picture {
-    display: inline-block;
-    width: 75px;
-    overflow-x: hidden;
-}
+.footlogo {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 340px;
+  height: 30px;
+  }
 
 
 @media screen and (min-width: 860px) {
