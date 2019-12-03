@@ -8,7 +8,7 @@ section a {
     display: inline-block;
     width: 300px;
     height: 200px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     transform: scale(1);
     transition: transform 0.5s;
 }
@@ -18,6 +18,7 @@ section a:hover {
     z-index: 2;
 }
 section a img {
+    border-radius: 8px;
     width: 300px;
     height: 200px;
 }
@@ -30,6 +31,7 @@ section a p {
     background-color: rgba(0,0,0,0.75);
     color: white;
     margin: 0;
+    border-radius: 8px;
 }
 section a p{
     display: inline;
@@ -42,5 +44,5 @@ section ul {
 section li {
     display: inline-block;
     vertical-align: top;
-    margin: 5px;
+    margin: 10px;
 }
