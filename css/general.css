@@ -18,7 +18,7 @@ h2 {
 }
 
 .laura {
-    text-align: center;
+    text-align: left;
 }
 
 h3 {
@@ -46,10 +46,16 @@ h4
     font-size: 1.2em;
 }
 
+
+
 @media only screen and (max-width: 700px) {
   p {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .lauraname{
+    text-align: center;
   }
 }
 
@@ -125,6 +131,10 @@ h4
 
     .navbar-toggle {
     display: none;
+    }
+
+    .lauraname{
+      font-size: 30px;
     }
 
 
