@@ -46,6 +46,5 @@ section li {
     margin: 10px;
 }
 body {
-    /*background-color: rgba(255, 229, 131, 0.5); light yellow*/
-    background-color: rgba(200, 228, 255, 0.3);
+    background-color: white;
 }
