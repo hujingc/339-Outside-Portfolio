@@ -50,7 +50,7 @@ section li {
     box-sizing: border-box;
 }
 
-about-me-title {
+#about-me-title {
     text-align: center;
     padding: 10px;
 }
