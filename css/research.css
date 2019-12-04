@@ -1,4 +1,7 @@
-﻿#philosophy {
+﻿h1 {
+    margin-bottom: 0;
+}
+#philosophy {
     background-color: rgba(255, 203, 5, 0.5);
     padding: 15px;
 }
