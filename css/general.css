@@ -58,7 +58,7 @@ h4 {
 
     .navbar {
     font-size: 18px;
-    background-color: gainsboro;
+    background-color: #ededed;
     padding-bottom: 10px;
 		Font-Family: 'Ubuntu', Sans-Serif;
     }
@@ -162,7 +162,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 1fr;
-    background-color:	gainsboro;
+    background-color:	#ededed;
 }
 
 ul h1 {
