@@ -1,9 +1,9 @@
-
-h3{
+h3 {
   text-decoration: underline;
 }
 
-img {
-    display: block;
-    margin: auto;
+figure>* {
+  display: block;
+  margin: auto;
+  text-align: center;
 }
