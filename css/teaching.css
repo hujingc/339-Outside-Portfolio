@@ -8,18 +8,17 @@ figure>* {
   text-align: center;
 }
 
-img {
+figure img {
   display: block;
   margin: auto;
 }
 
 figcaption {
-    text-align: center;
-    color: black;
-    Font-Family: 'Open Sans', Sans-Serif;
-    margin: 20px;
-    font-size: 15px;
-  }
+  text-align: center;
+  color: black;
+  Font-Family: 'Open Sans', Sans-Serif;
+  margin: 20px;
+  font-size: 15px;
 }
 
 aside {
@@ -30,7 +29,7 @@ aside {
   font-size: 17px;
 }
 
-.lbl-toggle{
+.lbl-toggle {
   color: #00274C;
   Font-Family: 'Open Sans', Sans-Serif;
 }
