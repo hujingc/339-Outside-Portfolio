@@ -12,13 +12,31 @@
     background-color: rgba(255, 203, 5, 0.5);
     padding: 15px;
 }
+
 #notice {
     text-align: center;
     padding: 15px;
 }
 
+ul>* {
+    Font-Family: 'Open Sans', Sans-Serif;
+    line-height: 1.5em;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+iframe{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 1fr;
+    height:1fr;
+}
+
 @media only screen and (min-width: 700px) {
-    
+
     #philosophy {
         text-align: left;
     }
