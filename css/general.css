@@ -56,14 +56,14 @@ aside {
 
 .navbar {
     font-size: 18px;
-    background-color: rgba(0, 39, 76, 0.5);
+    background-color: grey;
     padding-bottom: 10px;
     Font-Family: 'Ubuntu', Sans-Serif;
 }
 
     .nav-links{
     text-decoration: none;
-    color: rgba(255, 255, 255, 255);
+    color: black;
     }
 
     .main-nav li {
@@ -118,9 +118,9 @@ aside {
     .nav-links {
         margin: 15px;
     }
-        .main-nav li:hover {
-            text-decoration: underline;
-        }
+    .main-nav li:hover {
+        text-decoration: underline;
+    }
     .navbar-toggle {
         display: none;
     }
@@ -161,7 +161,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 1fr;
-    background-color: rgba(0, 39, 76, 0.4);
+    background-color: grey;
 }
 
 ul h1 {
