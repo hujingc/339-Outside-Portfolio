@@ -1,19 +1,6 @@
-﻿#notice {
-    text-align: center;
-    padding: 15px;
-}
-
-#philosophy h2 {
-    text-align: left;
-}
-
-#philosophy {
+﻿#philosophy {
     background-color: rgba(255, 203, 5, 0.5);
     padding: 15px;
-}
-
-#current h2 {
-    text-align: right;
 }
 
 #current {
@@ -21,10 +8,28 @@
     padding: 15px;
 }
 
-#past h2 {
-    text-align: left;
-}
 #past {
     background-color: rgba(255, 203, 5, 0.5);
     padding: 15px;
+}
+#notice {
+    text-align: center;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 700px) {
+    
+    #philosophy {
+        text-align: left;
+    }
+
+    #current h2 {
+        text-align: right;
+    }
+
+    #past h2 {
+        text-align: left;
+    }
+
+
 }
