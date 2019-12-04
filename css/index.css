@@ -6,13 +6,13 @@
 section a {
 	position: relative;
 	display: inline-block;
-	/*get rid of*/
+
 	width: 300px;
-	/*get rid of*/
+
 	height: 200px;
-	/*get rid of*/
+
 	border: 1px solid black;
-	/*get rid of*/
+
 }
 
 section a img {
@@ -46,6 +46,35 @@ section li {
 	vertical-align: top;
 	margin: 5px;
 }
+* {
+    box-sizing: border-box;
+}
+
+#about-me-title {
+    text-align: center;
+    padding: 10px;
+}
+
+#intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+
+.laura {
+    grid-column: 1;
+    align-self: center;
+    padding: 10px;
+}
+
+.laura > img {
+    width: 100%;
+}
+
+.info {
+    grid-column: 2;
+    align-self: center;
+}
 
 
 
@@ -55,7 +84,6 @@ section li {
 		overflow: visible;
 	}
 }
-
 * {
 	box-sizing: border-box;
 }
@@ -157,36 +185,34 @@ section li {
 }
 
 
-
 @media screen and (max-width: 600px) {
 
-  .timeline::after {
-    left: 31px;
-  }
+    .timeline::after {
+        left: 31px;
+    }
 
-  .box {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
 
-/* All arrows are pointing left */
-  .box::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
+    All arrows are pointing left
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
 
-  .left::after, .right::after {
-    left: 15px;
-  }
+    .left::after, .right::after {
+        left: 15px;
+    }
 
-  .right {
-    left: 0%;
-  }
+    .right {
+        left: 0%;
+    }
 }
-
 
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
