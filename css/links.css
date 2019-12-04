@@ -1,6 +1,6 @@
 ﻿section {
     text-align: center;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 section a {
     position: relative;
@@ -43,8 +43,22 @@ section ul {
 section li {
     display: inline-block;
     vertical-align: top;
-    margin: 10px;
+    padding: 10px;
 }
 body {
     background-color: white;
+}
+#wasteful-links {
+    background-color: rgba(255, 203, 5, 0.4);
+}
+#useful-links {
+    background-color: rgba(0, 39, 76, 0.4);
+}
+section h2 {
+    margin: 0;
+    padding-top: 30px;
+}
+h3 {
+    margin: 0;
+    padding-top: 30px;
 }
