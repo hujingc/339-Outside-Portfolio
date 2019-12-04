@@ -65,7 +65,7 @@ h4 {
 
     .nav-links{
     text-decoration: none;
-    color: rgba(255, 255, 255, 255);
+    color: #00274C;
     }
 
     .main-nav li {
@@ -190,7 +190,7 @@ footer h2 {
   }
 
 .mail {
-    color: white;
+    color: #00274C;
     font-size: 16px;
     text-decoration: none;
     margin-right: 15px;
