@@ -21,7 +21,7 @@
     padding: 15px;
 }
 
-ul>* {
+#info>* {
     Font-Family: 'Open Sans', Sans-Serif;
     line-height: 1.5em;
 }
