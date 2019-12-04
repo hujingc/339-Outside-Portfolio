@@ -187,6 +187,20 @@ section li {
 
 @media screen and (max-width: 600px) {
 
+    .laura {
+        grid-column: 1 / span 2;
+        align-self: center;
+        padding: 10px;
+    }
+
+    .laura > img {
+        width: 100%;
+    }
+
+    .info {
+        grid-column: 1 / span 2;
+        align-self: center;
+    }
     .timeline::after {
         left: 31px;
     }
