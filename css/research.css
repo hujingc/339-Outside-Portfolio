@@ -38,6 +38,11 @@ iframe{
     height:1fr;
 }
 
+.lbl-toggle{
+  color: #00274C;
+  Font-Family: 'Open Sans', Sans-Serif;
+}
+
 @media only screen and (min-width: 700px) {
 
     #philosophy {
