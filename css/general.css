@@ -1,8 +1,12 @@
-html,
-body {
+html {
     padding: 0;
     margin: 0;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+} 
 h1 {
     margin: 30px;
     text-align: center;
